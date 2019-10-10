@@ -1,7 +1,7 @@
 const form = document.querySelector('#form');
 const content = document.querySelector('#content');
 
-const age = prompt('How old are you?');
+const age = prompt('Age restricted website, must be 20 or over!');
 
 if (age >= 20) {
     content.style.display = 'block';
